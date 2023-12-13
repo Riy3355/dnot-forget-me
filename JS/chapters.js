@@ -44,8 +44,8 @@ activeli.onclick=function(){
     let madiascreen=window.matchMedia("(max-width:650px)")
     if(madiascreen.matches){
         activeli.style='display:none'
-        lang.style='right: -39%;margin-top: 150px;top:-10px;padding-top:17px;padding-left:3px;    margin-right: 163px; width:97px;height: 160px'
-   langLable.style='padding-top:17px;'
+        lang.style='right: -39%;margin-top: 160px;top:-10px;padding-top:17px;padding-left:3px;    margin-right: 163px; width:97px;height: 160px'
+   langLable.style='padding-top:20px;'
    listLang.style='font-size:14px'
    langLable.style='font-size:14px'
 

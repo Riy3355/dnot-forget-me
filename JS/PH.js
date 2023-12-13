@@ -26,13 +26,15 @@ let globlIcon =document.querySelector('.fa-globe')
 //////Satting Events//////////
 
 
-
-
  langLable.onclick=function(){
     activeli.style='position: relative;top: 0; margin-left: 10px;'
     globlIcon.style.display='block'
     lang.style='top:-350px;transition:0.6s;'
     
+let madiascreen=window.matchMedia("(max-width:650px)")
+if(madiascreen.matches){
+    globlIcon.style='display:none'
+}
 }
 
 activeli.onclick=function(){
@@ -45,6 +47,7 @@ activeli.onclick=function(){
     if(madiascreen.matches){
         activeli.style='display:none'
    langLable.style='padding-top:17px;'
+   
 }
 
 }

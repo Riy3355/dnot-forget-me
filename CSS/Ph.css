@@ -265,8 +265,8 @@ margin-top: 15px;
     z-index: 2;
     
     }
-    @media screen {
-        .Landing-Page .buls li{
+    @media (max-width:800px) {
+        .Landing-Page .buls {
             left: 45%;
         }
     }
@@ -291,7 +291,7 @@ margin-top: 15px;
     }
     @media (max-width:700px) {
         .Landing-Page .fa-arrow-right{
-            display: none;
+           font-size: 15px;
         }
     }
     
@@ -327,7 +327,8 @@ margin-top: 15px;
     
     @media (max-width:700px) {
     .Landing-Page .fa-arrow-left{
-        display: none;
+    font-size: 15px;  
+
     }
     }
     .Landing-Page .buls .activeLi{
@@ -569,7 +570,7 @@ margin-top: 15px;
     text-transform: uppercase;
     font-size: 70px;
     }
-    @media (max-width:800px) {
+    @media (max-width:950px) {
     .support-imag h1{
     font-size:40px;
     }
@@ -591,7 +592,7 @@ margin-top: 15px;
     cursor: pointer;
     }
     
-    @media (max-width:800px) {
+    @media (max-width:950px) {
     .support-imag button{
     bottom: 10%;
     }
@@ -671,7 +672,7 @@ margin-top: 15px;
     font-weight: bold;
     text-transform: uppercase;
     }
-    @media (max-width:900px) {
+    @media (max-width:950px) {
     .news h1{
         font-size: 50px;
         margin-top: 20px;
@@ -714,9 +715,10 @@ margin-top: 15px;
     font-size: 60px;
     }
     
-    @media (max-width:800px) {
+    @media (max-width:950px) {
     .news-page h3{
-        font-size: 40px;
+        font-size: 35px;
+        margin-bottom: 10px;
     }    
     }
     .news-page button{
@@ -740,6 +742,12 @@ margin-top: 15px;
     color: white;
     }
     
+    @media (max-width:950px) {
+        .news-page button{
+        bottom: 8%;
+        margin-top: 10px;
+        }
+        }
     
     
     

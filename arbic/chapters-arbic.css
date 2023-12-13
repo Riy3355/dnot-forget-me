@@ -37,7 +37,7 @@
     color: white;
 }
 
-@media (max-width:900px) {
+@media (max-width:950px) {
     .chapter h1{
         font-size: 30px;
         
@@ -59,6 +59,13 @@
     text-transform: uppercase;
     font-weight: bold;
     cursor: pointer;
+}
+
+@media (max-width:950px) {
+    .chapter button{
+        font-size: 10px;
+     
+    }
 }
 .chapter .header .logo{
     width: 70px;
