@@ -229,6 +229,7 @@ margin-top: 15px;
         margin-top: 18px;
         margin-right: 20px;
     }
+    
     @media (max-width:650px) {
         .Landing-Page .header .fa-globe{
         display: none;
