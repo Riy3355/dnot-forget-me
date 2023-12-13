@@ -265,6 +265,11 @@ margin-top: 15px;
     z-index: 2;
     
     }
+    @media screen {
+        .Landing-Page .buls li{
+            left: 45%;
+        }
+    }
     .Landing-Page .fa-arrow-right{
     
         position: absolute;
