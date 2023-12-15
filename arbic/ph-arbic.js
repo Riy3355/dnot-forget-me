@@ -34,8 +34,8 @@ if(madiascreen.matches){
 activeli.onclick=function(){
 
     activeli.style='position: relative;top: -70px; margin-left: 45px;'
-    lang.style='top:0;transition:0.6s;margin-top:60px; width: 100px;    height: 146px'
-    globlIcon.style.display='none'
+    lang.style='top:0;transition:0.6s;margin-top:60px; width: 100px;    height: 180px'
+    
 //////mid height
 let madiascreenht=window.matchMedia("(max-height:450px)")
 if(madiascreenht.matches){
@@ -43,7 +43,6 @@ if(madiascreenht.matches){
   
     activeli.style='position: relative;top: -70px; margin-left: 45px;'
     lang.style='top:0;transition:0.6s;margin-top:65px; width: 90px;    height: 120px'
-    globlIcon.style.display='none'
   listLang.style='font-size:10px'
     langLable.style='font-size:15px;margin-bottom: 3px'
 
@@ -96,7 +95,7 @@ langLable.style='font-size:8px'
 
 langLable.onclick=function(){
     activeli.style='position: relative;top: 0; margin-left: 10px;'
-    globlIcon.style.display='block'
+
     lang.style='top:-350px;transition:0.6s;'
     let madiascreen=window.matchMedia("(max-width:650px)")
     if(madiascreen.matches){
