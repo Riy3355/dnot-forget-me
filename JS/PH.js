@@ -40,12 +40,15 @@ if(madiascreen.matches){
 activeli.onclick=function(){
 
     activeli.style='position: relative;top: -70px; margin-left: 45px ;'
-    lang.style='top:0;transition:0.6s;'
+    lang.style='top:0;transition:0.6s;padding-top: 20px;    margin-top: 70px;'
     globlIcon.style.display='none'
 //small screenn
 let madiascreensmall=window.matchMedia("(max-width:650px)")
 if(madiascreensmall.matches){
     activeli.style='display:none'
+
+    lang.style='top:75px;transition:0.6s;padding-top: 10px;    margin-top: 70px;'
+    globlIcon.style.display='none'
 langLable.style='padding-top:14px;'
 
 }

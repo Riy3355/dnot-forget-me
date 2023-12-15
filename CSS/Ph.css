@@ -319,6 +319,27 @@ margin-top: 15px;
     z-index: 2;
     text-align: center;
     }
+    
+    @media (max-width:450px) {
+        .Landing-Page h1{
+            font-size: 30px;
+            margin-top: 10px;
+        }
+    }
+
+    @media (max-width:450px) {
+        .Landing-Page h1{
+            font-size: 15px;
+           
+        }
+    }
+    
+    @media (max-width:450px) {
+        .Landing-Page .Landing-text{
+            top: 55%;  
+          
+        } 
+    }
     .Landing-Page .buls{
     
     position: absolute;
@@ -982,6 +1003,21 @@ margin-top: 15px;
         color: red; 
            padding-top: 60px;
     }
+    /*mid*/
+    @media (max-width:660px) {
+        .cobyrigth h2{
+            font-size: 20px;
+            padding-top: 10px;
+        }
+    }
+    /*small*/
+    @media (max-width:450px) {
+        .cobyrigth h2{
+            font-size: 15px;
+            padding-top: 10px;
+        }
+    }
+    
     @media (max-height:360px) {
         .cobyrigth h2{
             font-size: 15px;

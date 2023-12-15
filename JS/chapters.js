@@ -76,7 +76,7 @@ langLable.style='font-size:14px'
 let madiascreen3=window.matchMedia("(max-width:360px)")
 if(madiascreen3.matches){
     activeli.style='display:none'
-    lang.style='right: -39%;margin-top: 175px;top:-10px;padding-top:17px;padding-left:3px; margin-right: 120px;width:70px;height: 140px'
+    lang.style='right: -39%;margin-top: 186px;top:-10px;padding-top:17px;padding-left:3px; margin-right: 120px;width:70px;height: 120px'
 langLable.style='padding-top:20px;'
 listLang.style='font-size:14px'
 langLable.style='font-size:8px'
