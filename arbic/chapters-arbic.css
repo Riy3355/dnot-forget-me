@@ -5,7 +5,7 @@
     position: absolute;
     right: 0;
     margin-right: 201px;
-    margin-top: 61px;
+    margin-top: 40px;
     text-align: center;
     border-radius: 5%;
     background-color: rgb(25, 23, 23);
@@ -16,6 +16,10 @@
     list-style: none;
     transition: 0.5s;
     top: -250px;
+}
+.language .language-list{
+    display: flex;
+    flex-direction: column;
 }
 /*start landing-page*/
 
@@ -37,12 +41,51 @@
     color: white;
 }
 
-@media (max-width:950px) {
-    .chapter h1{
-        font-size: 30px;
-        
-    }
+/*big screen*/
+@media (max-width:1050px) {
+
+    .chapter     h1{
+    font-size: 30px;
+  bottom: 55%;
 }
+}
+/*mid screen*/
+@media (max-width:660px) {
+    .chapter   h1{
+        font-size: 30px;
+    }
+    /*small*/
+    }
+    @media (max-width:450px) {
+    
+    
+        .chapter  h1{
+            margin-bottom: 35px;
+    
+    font-size:15px ;
+    }
+    }
+    
+    /*very small*/
+    @media (max-width:350px) {
+    
+    
+        .chapter   h1{
+            margin-bottom: 40px;
+        font-size:10px ;
+        }
+        }
+        
+    @media (max-height:375px) {
+    
+    
+        .chapter   h1{
+            margin-bottom: 20px;
+        font-size:20px ;
+        margin-top: 13px
+        }
+        }
+        
 
 .chapter button{
     
@@ -67,6 +110,28 @@
      
     }
 }
+
+@media (max-width:660px) {
+    .chapter button{
+        font-size: 8px;
+     
+    }
+}
+
+@media (max-width:360px) {
+    .chapter button{
+        font-size: 5px;
+     
+    }
+}
+
+@media (max-height:375px) {
+    .chapter button{
+        margin-top: 5px;
+        font-size: 4px;
+     
+    }
+}
 .chapter .header .logo{
     width: 70px;
     padding: 15px;
@@ -86,4 +151,16 @@ margin-left: 0px;
     right: 0%;
        
     }
+    
+    
+    /*very small*/
+    @media (max-width:350px) {
+    
+    
+        .chapter   h1{
+            margin-bottom: 30px;
+        font-size:13px ;
+        }
+        }
+        
 /*end landing-page*/

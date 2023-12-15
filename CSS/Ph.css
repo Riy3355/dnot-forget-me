@@ -73,6 +73,13 @@
         margin-top: 140px;
     }
 }
+
+@media (max-width:450px) {
+    .language{
+        width: 90px;
+        height: 140px;
+    }
+}
     
     .language .language-list{
         list-style: none;
@@ -94,6 +101,31 @@
         padding-bottom: 13px;
         transition: 0.5s;
     }
+    
+    /*for mudim*/
+@media (max-width:650px) {
+    .language .lang-lab{
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+}
+/*for small*/
+@media (max-width:450px) {
+    .language .lang-lab{
+        font-size: 10px;
+        margin-bottom: 10px;
+
+    }
+}
+
+/*for very small*/
+@media (max-width:450px) {
+    .language .lang-lab{
+        font-size: 8px;
+        margin-bottom: 10px;
+
+    }
+}
     .language .language-list a{
         
     text-decoration: none;
@@ -109,6 +141,22 @@
     }
 
 
+    /*for mudim*/
+    @media (max-width:650px) {
+        .language .language-list a{
+            font-size: 13px;
+        margin-bottom: 10px;
+
+        }
+    }
+    /*for small*/
+    @media (max-width:450px) {
+        .language .language-list a{
+            font-size: 8px;
+        margin-bottom: 10px;
+
+        }
+    }
     .language .language-list a:hover{
         color: white;
     }
@@ -212,6 +260,7 @@ margin-top: 15px;
     .Landing-Page li{
         display: block;
         margin-bottom: 20px;
+        
     }    
     }
     .Landing-Page .header-ul a{
@@ -220,11 +269,34 @@ margin-top: 15px;
     text-transform: uppercase;
     transition: 0.5s;
     
+    
+    }
+    /*for maidum*/
+    @media (max-width:650px) {
+        .Landing-Page .header-ul a{
+    font-size: 15px;
+        }
+    }
+    
+    /*for small*/
+    @media (max-width:500px) {
+        .Landing-Page .header-ul a{
+    font-size: 10px;
+        }
+    }
+
+    /*for very small*/
+    @media (max-width:350px) {
+        .language .header-ul a{
+            font-size: 5px;
+
+        }
     }
     .Landing-Page .header-ul :hover{
     color: var(--main-color--);
     }
 
+    
     .Landing-Page .header .fa-globe{
         margin-top: 18px;
         margin-right: 20px;
@@ -292,9 +364,30 @@ margin-top: 15px;
     @media (max-width:700px) {
         .Landing-Page .fa-arrow-right{
            font-size: 15px;
+           width: 30px;
+           height: 30px;
+        }
+    }
+
+    
+    
+    /*small*/
+    @media (max-width:450px) {
+        .Landing-Page .fa-arrow-right{
+        font-size: 10px;  
+    
+        width: 20px;
+        height: 20px;
         }
     }
     
+    /* very small*/
+    @media (max-width:300px) {
+        .Landing-Page .fa-arrow-right{
+        font-size: 10px;  
+        
+        }
+    }
     .Landing-Page .fa-arrow-right:hover{
     background-color: white;
     color: red;
@@ -324,12 +417,32 @@ margin-top: 15px;
     background-color: white;
     color: red;
     }
-    
+    /*mid*/
     @media (max-width:700px) {
     .Landing-Page .fa-arrow-left{
     font-size: 15px;  
 
+    width: 30px;
+    height: 30px;
     }
+    }
+    
+    /*small*/
+    @media (max-width:450px) {
+        .Landing-Page .fa-arrow-left{
+        font-size: 10px;  
+    
+        width: 20px;
+        height: 20px;
+        }
+    }
+    
+    /* very small*/
+    @media (max-width:300px) {
+        .Landing-Page .fa-arrow-left{
+        font-size: 10px;  
+    
+        }
     }
     .Landing-Page .buls .activeLi{
     background-color: var(--main-color--);
@@ -344,18 +457,31 @@ margin-top: 15px;
     {
     display: flex;
     }
-    @media (max-width:650px) {
+    @media (max-width:950px) {
     .Landing-Page h1{
         font-size: 30px;
+        margin-top: 10px;
     }
+    /*mid*/
     }
     @media (max-width:450px) {
     
     
     .Landing-Page h1{
-    font-size:20px ;
+    font-size:15px ;
     }
     }
+    
+    /*very small*/
+    @media (max-width:350px) {
+    
+    
+        .Landing-Page h1{
+        font-size:10px ;
+        }
+        }
+        
+
     /*End Landing */
     /*Start Story Page*/
     .story-page{
@@ -368,18 +494,18 @@ margin-top: 15px;
     .story-page .tringle{
     
     position: absolute;
-    width: 100px;
+    width: 140px;
     text-align: center;
     left: 50%;
     transform: translatex(-50%);
     margin-bottom: 29px;
-    top: 15%;
+    top: 10%;
     }
     @media (max-width:700px) {
     .story-page .tringle{
-        width: 60px;
+        width: 70px;
         margin-bottom: 50px;
-        top: 10%;
+        top: 8%;
     }
     
     }
@@ -425,13 +551,26 @@ margin-top: 15px;
     text-transform: uppercase;
     text-decoration: none;
     }
-    @media (max-width:1109px) {
+    @media (max-width:1117px) {
     .story-page .chapters h3{
         position: absolute;
         top: 50%;
         font-size: 30px;
     }
     }
+    
+    /*mid*/
+    @media (max-width:650px) {
+        .story-page .chapters h3{
+            font-size: 20px;
+        }
+        }
+        /*small*/
+    @media (max-width:450px) {
+        .story-page .chapters h3{
+            font-size:15px;
+        }
+        }
     .story-page .chapters h3:hover{
     color: red;
     }
@@ -450,7 +589,7 @@ margin-top: 15px;
     z-index: 1;
     transform: translate(-50%, -50%);
     }
-    @media (max-width:1109px) {
+    @media (max-width:1117px) {
     .story-page .chapters .chapter1 .overlay{
         height: 100%;
         top: 50%;
@@ -511,7 +650,7 @@ margin-top: 15px;
     .support .tringle{
     
     position: absolute;
-    width: 100px;
+    width: 140px;
     text-align: center;
     left: 50%;
     transform: translatex(-50%);
@@ -520,9 +659,9 @@ margin-top: 15px;
     }
     @media (max-width:700px) {
     .support .tringle{
-        width: 60px;
+        width: 70px;
         margin-bottom: 40px;
-        top: 10%;
+        top: 8%;
     }
     }
     .support h1{
@@ -594,7 +733,8 @@ margin-top: 15px;
     
     @media (max-width:950px) {
     .support-imag button{
-    bottom: 10%;
+    bottom: 5%;
+    font-size: 10px;
     }
     }
     .support-imag button a{
@@ -637,8 +777,6 @@ margin-top: 15px;
     /*End Support page*/
     /*News Page*/
     .news{
-    
-    
     position: relative;
     margin-top: 10px;
     text-align: center;
@@ -648,7 +786,7 @@ margin-top: 15px;
     .news .tringle{
     
     position: absolute;
-    width: 100px;
+    width: 140px;
     text-align: center;
     left: 50%;
     transform: translatex(-50%);
@@ -659,12 +797,19 @@ margin-top: 15px;
     
     @media (max-width:700px) {
     .news .tringle{
-        width: 60px;
+        width: 70px;
         margin-bottom: 70px;
     
-    top: 5%;
+    top: 3%;
     }
     }
+        
+    @media (max-width:950px) {
+        .news .tringle{
+        
+        top: 3%;
+        }
+        }
     /**/
     .news h1{
     
@@ -744,11 +889,175 @@ margin-top: 15px;
     
     @media (max-width:950px) {
         .news-page button{
-        bottom: 8%;
+        bottom: 0%;
         margin-top: 10px;
+        font-size: 10px;
         }
         }
     
     
     
     /*End News Page*/
+    /*coby rigth*/
+    .coby-title{
+        position: relative;
+      
+    }
+    .coby-title .tringle{
+    
+        position: absolute;
+        width: 140px;
+        text-align: center;
+        left: 50%;
+        transform: translatex(-50%);
+        margin-bottom: 29px;
+        top: 0%;
+        
+        }
+        
+    @media (max-width:700px) {
+        .coby-title .tringle{
+            width: 70px;
+            margin-bottom: 70px;
+        
+        top: 3%;
+        }
+        }
+            
+        @media (max-width:950px) {
+            .coby-title .tringle{
+            
+            top: 0%;
+            }
+            }
+        
+    .coby-title .title{
+    
+        font-size: 100px;
+        font-weight: bold;
+        text-transform: uppercase;
+        text-align: center;
+      bottom: -150px;
+      position: relative;
+       
+
+        }
+        
+    @media (max-width:950px) {
+        .coby-title .title{
+            font-size: 50px;
+            margin-top: 20px;
+           bottom: -120px;
+        }
+        }
+                
+    @media (max-width:450px) {
+        .coby-title .title{
+            font-size: 30px;
+            margin-top: 20px;
+           bottom: -80px;
+        }
+        }
+
+   .coby-title .cobyrigth{
+
+        
+
+    margin-top: 30%;
+    text-align: center;
+
+
+        position: relative;
+        background-image: url(../imag/pexels-faheem-ahamad-16732826.jpg);
+        background-size: cover;
+       min-height: 50vh;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+        transition: 0.5s;
+    }
+    .cobyrigth h2{
+    position: relative;
+        z-index: 2;
+        color: red; 
+           padding-top: 60px;
+    }
+    @media (max-height:360px) {
+        .cobyrigth h2{
+            font-size: 15px;
+            padding-top: 10px;
+        }
+    }
+    .cobyrigth h2 span{
+        color: white;
+   
+    }
+    .cobyrigth .Images-source{
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 2;
+        
+
+    }
+    .cobyrigth .Images-source span{
+        color: white;
+        display: flex;
+        flex-direction: column;
+        font-size: 15px;
+        position: relative;
+        z-index: 2;
+    }
+    @media (max-height:450px) {
+        .cobyrigth .Images-source {
+            position: absolute;
+            font-size: 10px;
+        top :8%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        }
+    }
+    
+    @media (max-height:360px) {
+        .cobyrigth .Images-source {
+            position: absolute;
+            font-size: 8px;
+        top :8%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        }
+    }
+    @media (max-height:450px) {
+        .cobyrigth .Images-source span{
+           
+            font-size: 5px;
+
+        }
+    }
+    .cobyrigth .overlay{
+    
+    
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    width: 100%;
+   height: 50vh;
+    background-color: rgb(0 0 0 );
+    opacity: 50%;
+    z-index: 1;
+    
+    }
+    .cobyrigth p{
+        color: red;
+        z-index: 2;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 0%;
+    }
+    @media (max-height:360px) {
+        .cobyrigth p{
+            font-size: 10px;
+        }
+    }
+    /*end coby rigth*/

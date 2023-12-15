@@ -12,7 +12,7 @@ body{
     padding-left: 10px;
     padding-right: 10px;
     margin-right: 30px;
-    margin-top:60px;
+    margin-top:70px;
     text-align: center;
     border-radius: 5%;
     background-color: rgb(25, 23, 23);
@@ -25,9 +25,42 @@ body{
     top: -250px;
 padding-top: 20px;
     }
-@media (max-width:650px) {
+    
+@media (max-width:700px) {
+    .language{
+        margin-top:60px;
+        margin-right: 190px;
+        width: 69px;
+        height: 128px;
+    }
+}
+@media (max-width:660px) {
     .language{
     margin-right: 163px;
+    }
+}
+
+@media (max-width:450px) {
+    .language{
+        width: 90px;
+        height: 140px;
+        margin-right: 170px;
+    }
+}
+/*small*/
+@media (max-width:350px) {
+    .language{
+        width: 50px;
+        height: 100px;
+        margin-right: 170px;
+    }
+}
+
+@media (max-width:250px) {
+    .language{
+        width: 40px;
+        height: 80px;
+        margin-right: 170px;
     }
 }
     
@@ -37,9 +70,9 @@ padding-top: 20px;
         
     padding-left: 10px;
     padding-right: 10px;
+ }
 
-
-    }
+   
     .language-list .lang-lab{
         position: relative;
         color: red;
@@ -51,6 +84,22 @@ padding-top: 20px;
         padding-bottom: 13px;
         transition: 0.5s;
     }
+    
+    /*for mudim*/
+@media (max-width:750px) {
+    .language .lang-lab{
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+}
+/*for small*/
+@media (max-width:450px) {
+    .language .lang-lab{
+        font-size: 10px;
+        margin-bottom: 10px;
+
+    }
+}
     .language .language-list a{
         
     text-decoration: none;
@@ -60,6 +109,7 @@ padding-top: 20px;
     text-align: center;
     transition: 0.5s;
     }
+    
     .language-list .lang-lab:hover{
         color: white;
         cursor: pointer;
@@ -120,6 +170,23 @@ margin-top: 15px;
        padding-bottom: 13px;
        transition: 0.5s;
    }
+   
+    /*for mudim*/
+@media (max-width:650px) {
+    .language .lang-lab{
+        font-size: 15px;
+        margin-bottom: 10px;
+        margin-right: 5px;
+    }
+}
+/*for small*/
+@media (max-width:450px) {
+    .language .lang-lab{
+        font-size: 10px;
+        margin-bottom: 10px;
+        margin-right: 5px;
+    }
+}
    .language .language-list a{
        
    text-decoration: none;
@@ -129,6 +196,32 @@ margin-top: 15px;
    text-align: center;
    transition: 0.5s;
    }
+   
+    /*for mudim*/
+    @media (max-width:650px) {
+        .language .language-list a{
+            font-size: 13px;
+        margin-bottom: 10px;
+
+        }
+    }
+    /*for small*/
+    @media (max-width:450px) {
+        .language .language-list a{
+            font-size: 8px;
+        margin-bottom: 10px;
+
+        }
+    }
+    
+    /*for very small*/
+    @media (max-width:300px) {
+        .language .language-list a{
+            font-size: 5px;
+        margin-bottom: 10px;
+
+        }
+    }
    .language-list .lang-lab:hover{
        color: white;
        cursor: pointer;
@@ -275,6 +368,27 @@ position: relative;
     z-index: 2;
 }
 
+    /*for maidum*/
+    @media (max-width:650px) {
+        .chapter .header-ul a{
+    font-size: 15px;
+        }
+    }
+    
+    /*for small*/
+    @media (max-width:500px) {
+        .chapter .header-ul a{
+    font-size: 10px;
+        }
+    }
+
+    /*for very small*/
+    @media (max-width:350px) {
+        .language .header-ul a{
+            font-size: 5px;
+
+        }
+    }
 .chapter .overlay{
 
     position: absolute;
@@ -331,12 +445,41 @@ color: red;
     z-index: 2;
     color: white;
 }
-@media (max-width:950px) {
-    .chapter h1{
-        font-size: 30px;
-      bottom: 55%;
-    }
+/*big screen*/
+@media (max-width:1050px) {
+
+    .chapter     h1{
+    font-size: 30px;
+  bottom: 55%;
 }
+}
+/*mid screen*/
+@media (max-width:650px) {
+    .chapter   h1{
+        font-size: 30px;
+    }
+    /*small*/
+    }
+    @media (max-width:450px) {
+    
+    
+        .chapter  h1{
+            margin-bottom: 35px;
+    
+    font-size:15px ;
+    }
+    }
+    
+    /*very small*/
+    @media (max-width:350px) {
+    
+    
+        .chapter   h1{
+            margin-bottom: 40px;
+        font-size:10px ;
+        }
+        }
+        
 .chapter button{
     
     position: absolute;
@@ -357,6 +500,20 @@ color: red;
 @media (max-width:950px) {
     .chapter button{
         font-size: 10px;
+     
+    }
+}
+
+@media (max-width:660px) {
+    .chapter button{
+        font-size: 8px;
+     
+    }
+}
+
+@media (max-width:360px) {
+    .chapter button{
+        font-size: 5px;
      
     }
 }

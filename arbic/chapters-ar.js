@@ -36,18 +36,48 @@ if(madiascreen.matches){
 activeli.onclick=function(){
 
     activeli.style='position: relative;top: -70px; margin-left: 45px;'
-    lang.style='top:0;transition:0.6s;'
-    globlIcon.style.display='none'
+    lang.style='top:0;transition:0.6s;margin-top: 70px'
+  
+
+    //mid heihgt
+let madiascreenht=window.matchMedia("(max-height:450px)")
+if(madiascreenht.matches){
+
+  
+    activeli.style='position: relative;top: -70px; margin-left: 60px;'
+    lang.style='top:0;transition:0.6s;margin-top:65px; width: 80px; margin-rigth:185px;   height: 135px'
+  listLang.style='font-size:10px'
+    langLable.style='font-size:15px;'//margin-bottom: 0px;    padding-bottom: 6px'
 
 
+}
+//mid screen
     let madiascreen=window.matchMedia("(max-width:650px)")
     if(madiascreen.matches){
         activeli.style='display:none'
-   lang.style='right: -39%;margin-top: 160px;top:-10px;padding-top:17px;display:block;padding-left:3px;    margin-right: 163px; width:97px;height: 160px'
+   lang.style='right: -39%;margin-top: 160px;top:-10px;padding-top:17px;display:block;padding-left:3px;    margin-right: 240px; width:97px;height: 160px'
    listLang.style='font-size:14px'
    langLable.style='font-size:14px'
 }
+//small screen
+let madiascreen2=window.matchMedia("(max-width:450px)")
+if(madiascreen2.matches){
+    
+    activeli.style='display:none'
+    lang.style='right: -39%;margin-top: 160px;top:-10px;padding-top:17px;display:block;padding-left:3px; margin-right: 170px; width:97px;height: 160px'
+    listLang.style='font-size:14px'
+    langLable.style='font-size:14px'
+}
 
+//very small screen
+let madiascreen3=window.matchMedia("(max-width:360px)")
+if(madiascreen3.matches){
+    
+    activeli.style='display:none'
+    lang.style='right: -39%;margin-top: 165px;top:-10px;padding-top:17px;display:block;padding-left:3px;    margin-right: 134px; width:70px;height: 140px'
+    listLang.style='font-size:14px'
+    langLable.style='font-size:8px'
+}
 }
 
 

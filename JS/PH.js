@@ -42,12 +42,12 @@ activeli.onclick=function(){
     activeli.style='position: relative;top: -70px; margin-left: 45px ;'
     lang.style='top:0;transition:0.6s;'
     globlIcon.style.display='none'
+//small screenn
+let madiascreensmall=window.matchMedia("(max-width:650px)")
+if(madiascreensmall.matches){
+    activeli.style='display:none'
+langLable.style='padding-top:14px;'
 
-    let madiascreen=window.matchMedia("(max-width:650px)")
-    if(madiascreen.matches){
-        activeli.style='display:none'
-   langLable.style='padding-top:17px;'
-   
 }
 
 }
