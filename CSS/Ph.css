@@ -231,9 +231,16 @@ margin-top: 15px;
     
     .Landing-Page .header .logo{
     width: 300px;
-    padding: 15px;
+    padding: 0px;
     }
-
+    .Landing-Page .header .logo img{
+        width: 100px;
+    }
+    @media (max-width:650px) {
+        .Landing-Page .header .logo img{
+            width: 80px;
+        }
+    }
     @media (max-width:650px) {
         .Landing-Page .header .fa-globe{
         display: none;
