@@ -1,0 +1,193 @@
+
+.How-tosupport{
+    background-image:url(../imag/storyimg.jpg) ;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    min-height: 50vh;
+}
+
+
+.How-tosupport .header{
+position: relative;
+    z-index: 2;
+    color: white;
+    display: flex;
+    padding: 15px;
+
+}
+
+.How-tosupport .header .logo{
+    width: 300px;
+    padding: 15px;
+}
+.How-tosupport  .header-ul{
+  
+    list-style: none;
+    width: 100%;
+    padding: 0;
+    padding-right: 20px;
+    text-align: right;
+    padding-left: 0;
+    z-index: 2;
+}
+
+    /*for maidum*/
+    @media (max-width:650px) {
+        .How-tosupport .header-ul a{
+    font-size: 15px;
+        }
+    }
+    
+    /*for small*/
+    @media (max-width:500px) {
+        .How-tosupport.header-ul a{
+    font-size: 10px;
+        }
+    }
+
+    /*for very small*/
+    @media (max-width:350px) {
+        .How-tosupport .header-ul a{
+            font-size: 5px;
+
+        }
+    }
+    .How-tosupport .overlay{
+
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    width: 100%;
+    height: 50vh;
+    background-color: rgb(0 0 0 );
+    opacity: 50%;
+    z-index: 1;
+}
+.How-tosupport li{
+    display: inline-block;
+margin-left: 10px;
+}
+
+@media (max-width:650px) {
+    .How-tosupport li{
+        display: block;
+        margin-bottom: 20px;
+    
+    
+    }
+}    
+.How-tosupport .header-ul a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    transition: 0.5s;
+
+}
+
+.How-tosupport .header .fa-globe{
+    margin-top: 18px;
+    margin-right: 20px;
+}
+
+@media (max-width:650px) {
+    .How-tosupport .header .fa-globe{
+    display: none;
+    }
+}
+.How-tosupport .header-ul :hover{
+color: red;
+}
+.How-tosupport h1{
+    text-align: center;
+    font-size: 80px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+    color: white;
+}
+/*big screen*/
+@media (max-width:1050px) {
+
+    .How-tosupport   h1{
+    font-size: 30px;
+  bottom: 55%;
+}
+}
+/*mid screen*/
+@media (max-width:650px) {
+    .How-tosupport   h1{
+        font-size: 30px;
+    }
+    /*small*/
+    }
+    @media (max-width:450px) {
+    
+    
+        .How-tosupport h1{
+            margin-bottom: 35px;
+    
+    font-size:15px ;
+    }
+    }
+    
+    /*very small*/
+    @media (max-width:350px) {
+    
+    
+        .How-tosupport  h1{
+            margin-bottom: 40px;
+        font-size:10px ;
+        }
+        }
+        
+.content{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 20px;
+    margin: 20px;
+    margin-top: 80px;
+    list-style: armenian;
+    line-height: 1.8;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column-reverse;
+    padding-left: 20%;
+    padding-right: 20%;
+
+}
+@media(max-width:650px) {
+    .content{
+    font-size: 10px;
+    }
+}
+
+.How-tosupport .header .logo{
+    width: 300px;
+    padding: 15px;
+    }
+        
+    .How-tosupport .header .logo{
+        width: 300px;
+        padding: 0px;
+        }
+        .How-tosupport .header .logo img{
+            width: 100px;
+        }
+        @media (max-width:650px) {
+            .How-tosupport .header .logo img{
+                width: 80px;
+            }
+        }
+        @media (max-width:650px) {
+            .How-tosupport .header .fa-globe{
+            display: none;
+            }
+        }

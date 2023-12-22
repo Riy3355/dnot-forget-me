@@ -1,0 +1,138 @@
+
+/*sitting box*/
+
+.language {
+    position: absolute;
+    right: 0;
+    margin-right: 84px;
+    margin-top: 40px;
+    text-align: center;
+    border-radius: 5%;
+    background-color: rgb(25, 23, 23);
+    width: 136px;
+    height: 180px;
+    z-index: 2;
+    opacity: 70%;
+    list-style: none;
+    transition: 0.5s;
+    top: -250px;
+}
+.language .language-list{
+    display: flex;
+    flex-direction: column;
+}
+/*start landing-page*/
+
+.How-tosupport {
+    position: relative;
+    margin: -8px;
+}
+
+.How-tosupport  h1{
+    text-align: center;
+    font-size: 80px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    position: absolute;
+    left: 50%;
+    z-index: 2;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+}
+
+/*big screen*/
+@media (max-width:1050px) {
+
+    .How-tosupport     h1{
+    font-size: 30px;
+  bottom: 55%;
+}
+}
+/*mid screen*/
+@media (max-width:660px) {
+    .How-tosupport   h1{
+        font-size: 30px;
+    }
+    /*small*/
+    }
+    @media (max-width:450px) {
+    
+    
+        .How-tosupport   h1{
+            margin-bottom: 35px;
+    
+    font-size:15px ;
+    }
+    }
+    
+    /*very small*/
+    @media (max-width:350px) {
+    
+    
+        .How-tosupport   h1{
+            margin-bottom: 40px;
+        font-size:10px ;
+        }
+        }
+        
+    @media (max-height:375px) {
+    
+    
+          .How-tosupport   h1{
+            margin-bottom: 20px;
+        font-size:20px ;
+        margin-top: 13px
+        }
+        }
+        
+
+.How-tosupport  .header .logo{
+    width: 70px;
+    padding: 15px;
+    position: absolute;
+    left: 0;
+    margin-left: 20px;
+    top: -2px;
+
+    }
+    
+    .How-tosupport .header .fa-globe{
+        
+    margin-top: 18px;
+margin-left: 0px;
+    position: absolute;
+    margin-right: 250px;
+    right: 0%;
+       
+    }
+    
+    
+    /*very small*/
+    @media (max-width:350px) {
+    
+    
+        .How-tosupport    h1{
+            margin-bottom: 30px;
+        font-size:13px ;
+        }
+        }
+        
+        
+/*end landing-page*/
+/*content*/
+@media (max-width:660px) {
+    .content{
+        margin: 0%;
+        padding-right: 10%;
+        padding-left: 10%;
+    }
+    
+}
+.content img{
+    width: 100%;
+}
+.content .islamic-{
+    font-weight: bold;
+}
+/*End content*/

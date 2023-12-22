@@ -38,14 +38,14 @@ let globlIcon =document.querySelector('.fa-globe')
 activeli.onclick=function(){
 
     activeli.style='position: relative;top: -70px; margin-left: 45px ;'
-    lang.style='top:0;transition:0.6s;margin-top: 70px'
+    lang.style='top:0;transition:0.6s;margin-top: 90px'
 
 // big screen
     let madiascreen0=window.matchMedia("(max-width:950px)")
         if (madiascreen0.matches) {
 
     activeli.style='position: relative;top: -70px; margin-left: 45px ;'
-    lang.style='top:0;transition:0.6s;margin-top:80px;    width: 100px;height: 130px;'
+    lang.style='top:0;transition:0.6s;margin-top:85px;    width: 100px;height: 130px;'
 
     langLable.style='font-size:12px;    margin-bottom: 10px;    padding-bottom: 10px;'
     listLang.style='font-size:10px;margin-bottom: 10px'
@@ -55,7 +55,7 @@ activeli.onclick=function(){
     let madiascreen=window.matchMedia("(max-width:650px)")
     if(madiascreen.matches){
         activeli.style='display:none'
-        lang.style='right: -39%;margin-top: 160px;top:-10px;padding-top:17px;padding-left:3px;    margin-right: 163px; width:97px;height: 160px'
+        lang.style='right: -39%;margin-top: 120px;top:-10px;padding-top:17px;padding-left:3px;    margin-right: 218px; width:97px;height: 160px'
    langLable.style='padding-top:20px;'
    listLang.style='font-size:14px'
    langLable.style='font-size:14px'
@@ -66,7 +66,7 @@ let madiascreen2=window.matchMedia("(max-width:450px)")
 if(madiascreen2.matches){
 
     activeli.style='display:none'
-    lang.style='right: -39%;margin-top: 160px;top:-10px;padding-top:17px;padding-left:3px;    margin-right: 170px; width:97px;height: 160px'
+    lang.style='right: -39%;margin-top: 120px;top:-10px;padding-top:17px;padding-left:3px;    margin-right: 170px; width:97px;height: 160px'
 langLable.style='padding-top:20px;'
 listLang.style='font-size:14px'
 langLable.style='font-size:14px'
@@ -76,7 +76,7 @@ langLable.style='font-size:14px'
 let madiascreen3=window.matchMedia("(max-width:360px)")
 if(madiascreen3.matches){
     activeli.style='display:none'
-    lang.style='right: -39%;margin-top: 186px;top:-10px;padding-top:17px;padding-left:3px; margin-right: 120px;width:70px;height: 120px'
+    lang.style='right: -39%;margin-top: 100px;top:-10px;padding-top:17px;padding-left:3px; margin-right: 120px;width:70px;height: 120px'
 langLable.style='padding-top:20px;'
 listLang.style='font-size:14px'
 langLable.style='font-size:8px'

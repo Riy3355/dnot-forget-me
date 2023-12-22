@@ -33,10 +33,11 @@ let madiascreen=window.matchMedia("(max-width:650px)")
 if(madiascreen.matches){
     lang.style='display:none'
 }
+
 activeli.onclick=function(){
 
     activeli.style='position: relative;top: -70px; margin-left: 45px;'
-    lang.style='top:0;transition:0.6s;margin-top: 70px'
+    lang.style='top:0;transition:0.6s;margin-top: 70px  ;margin-rigth:84px;'
   
 
     //mid heihgt
@@ -45,7 +46,7 @@ if(madiascreenht.matches){
 
   
     activeli.style='position: relative;top: -70px; margin-left: 60px;'
-    lang.style='top:0;transition:0.6s;margin-top:65px; width: 80px; margin-rigth:185px;   height: 135px'
+    lang.style='top:0;transition:0.6s;margin-top:50px; width: 80px; margin-rigth:185px;   height: 135px'
   listLang.style='font-size:10px'
     langLable.style='font-size:15px;'//margin-bottom: 0px;    padding-bottom: 6px'
 
@@ -55,7 +56,7 @@ if(madiascreenht.matches){
     let madiascreen=window.matchMedia("(max-width:650px)")
     if(madiascreen.matches){
         activeli.style='display:none'
-   lang.style='right: -39%;margin-top: 160px;top:-10px;padding-top:17px;display:block;padding-left:3px;    margin-right: 240px; width:97px;height: 160px'
+   lang.style='right: -39%;margin-top: 100px;top:-10px;padding-top:17px;display:block;padding-left:3px;    margin-right: 240px; width:97px;height: 160px'
    listLang.style='font-size:14px'
    langLable.style='font-size:14px'
 }
@@ -64,7 +65,7 @@ let madiascreen2=window.matchMedia("(max-width:450px)")
 if(madiascreen2.matches){
     
     activeli.style='display:none'
-    lang.style='right: -39%;margin-top: 160px;top:-10px;padding-top:17px;display:block;padding-left:3px; margin-right: 170px; width:97px;height: 160px'
+    lang.style='right: -39%;margin-top: 100px;top:-10px;padding-top:17px;display:block;padding-left:3px; margin-right: 170px; width:97px;height: 160px'
     listLang.style='font-size:14px'
     langLable.style='font-size:14px'
 }
@@ -74,7 +75,7 @@ let madiascreen3=window.matchMedia("(max-width:360px)")
 if(madiascreen3.matches){
     
     activeli.style='display:none'
-    lang.style='right: -39%;margin-top: 165px;top:-10px;padding-top:17px;display:block;padding-left:3px;    margin-right: 134px; width:70px;height: 140px'
+    lang.style='right: -39%;margin-top: 90px;top:-10px;padding-top:17px;display:block;padding-left:3px;    margin-right: 134px; width:70px;height: 140px'
     listLang.style='font-size:14px'
     langLable.style='font-size:8px'
 }
@@ -84,7 +85,7 @@ if(madiascreen3.matches){
 
 langLable.onclick=function(){
     activeli.style='position: relative;top: 0; margin-left: 10px;'
-    globlIcon.style.display='block'
+    
     lang.style='top:-350px;transition:0.6s;'
     let madiascreen=window.matchMedia("(max-width:650px)")
     if(madiascreen.matches){
