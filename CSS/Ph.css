@@ -225,10 +225,15 @@ margin-top: 15px;
     z-index: 2;
     color: white;
     display: flex;
-    padding: 15px;
+    padding: 10px;
     
     }
     
+@media (max-width:650px) {
+    .Landing-Page .header{
+padding: 5px;
+    }    
+}
     .Landing-Page .header .logo{
     width: 300px;
     padding: 0px;
