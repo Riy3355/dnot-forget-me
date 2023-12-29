@@ -407,16 +407,17 @@ supportBackimag.addEventListener('click',()=>{
     r--;
     if(r<0){
 r=supportImag.length-1
-supportBcimag.style.backgroundImage='url("../imag/'+supportImag[r]+'")'
+supportBcimag.style.backgroundImage='url("..imag/'+supportImag[r]+'")'
 supportimagText.textContent=supportImagtext[r]
 supportBuottom.textContent=buttonText[r]
 }
 else{
-        supportBcimag.style.backgroundImage='url("imag/'+supportImag[r]+'")'
+        supportBcimag.style.backgroundImage='url("..imag/'+supportImag[r]+'")'
         supportimagText.textContent=supportImagtext[r]
         supportBuottom.textContent=buttonText[r]
     }
 })
+
 
 
 
