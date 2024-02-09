@@ -2,8 +2,9 @@
 ////Satting box ////
 
 
-let satting=document.querySelector('.satting-Box')
+let soursBox=document.querySelector('.sours-box')
 let sittingCon=document.querySelectorAll(".satting-content")
+let soursbt=document.querySelector('.sours-botm')
 let haderul=document.querySelectorAll('.hader-ul')
 let langLable=document.querySelector('.lang-lab')
 let astory=document.querySelector('.active4')
@@ -12,6 +13,8 @@ let news=document.querySelector('.active2')
 
 let activeli=document.querySelector('.active')
 let sittinglogo=document.querySelector('.fa-backward')
+
+
 
 
 ///////langauge/////////
@@ -25,7 +28,7 @@ let globlIcon =document.querySelector('.fa-globe')
 
 
 
-//////Satting Events//////////
+//////lang Events//////////
 
 
  langLable.onclick=function(){

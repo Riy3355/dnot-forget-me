@@ -23,7 +23,7 @@ let lan=document.querySelectorAll('.language-list li')
 let arbic=document.querySelector('.arbic')
 let eng=document.querySelector('.activelang')
 let globlIcon =document.querySelector('.fa-globe')
-//////Satting Events//////////
+//////languge Events//////////
 
 
  langLable.onclick=function(){
@@ -69,7 +69,7 @@ howSupport.addEventListener('click',()=>{
 /////logo eveint
 
 
-///////////sitting lang////////
+///////////lang lang////////
 
 
 ////arbic ul text/////
@@ -259,18 +259,20 @@ bults()
 //Story///
 let overlay=document.querySelector('.overlay')
 let allStpry=document.querySelector('.story-page')
-let chapters=document.querySelector('.chapters img')
+let chaptersImgs=document.querySelector('.chapter1')
 let chaptersH3=document.querySelector('.chapters h3')
 let chaptersLink=document.querySelector('.chapter1 a')
  let chaptersP=document.querySelector('.chapters p')
 let btn1=document.querySelector('.fa-caret-left')
 let btn2=document.querySelector('.fa-caret-right')
+let views=document.querySelector('views')
+let eye=document.querySelector('.fa-eye')
 //Chapters-page/////
 
 
 
-let storyImag=['imag/خنازير.jpg','imag/storyimag6.jpg','imag/storyimage3.jpg','imag/storyimag7.jpeg']
-let storyImagtext=['chapter one','chapter Tow','chapter three','chapter four']//,'chapter five','chapter six',]
+let storyImag=['../imag/خنازير.jpg','../imag/storyimag6.jpg#','../imag/storyimage3.jpg','../imag/storyimag7.jpeg']
+let storyImagtext=['chapter one','chapter Tow','chapter three','chapter four']
 let storyImagtxt2=['The beginning of the occupation','Deir Yassin massacre','The defeat of the occupation in October','Killing of Muhammad al-Durrah']
 let linksPage=['chapterone.html','chapterTwo.html','chapterThree.html','chapterfour.html']
 
@@ -282,7 +284,7 @@ btn1.addEventListener('click',()=>{
    i--
    if(i<0){
     i=storyImag.length-1
-    chapters.src=storyImag[i]
+    chaptersImgs.style.backgroundImage='url("imag/'+storyImag[i]+'")'
     chaptersH3.textContent=storyImagtext[i]
     chaptersP.textContent=storyImagtxt2[i]
   chaptersLink.href=linksPage[i]
@@ -290,7 +292,7 @@ btn1.addEventListener('click',()=>{
   
 
    }else{
-    chapters.src=storyImag[i]
+    chaptersImgs.style.backgroundImage='url("imag/'+storyImag[i]+'")'
     chaptersH3.textContent=storyImagtext[i]
     chaptersP.textContent=storyImagtxt2[i] 
     chaptersH3.href=linksPage[i]
@@ -305,19 +307,27 @@ btn2.addEventListener('click',()=>{
     i++
     if(i>=storyImag.length){
         i=0
-        chapters.src=storyImag[i]
+        chaptersImgs.style.backgroundImage='url("imag/'+storyImag[i]+'")'
         chaptersH3.textContent=storyImagtext[i]
         chaptersP.textContent=storyImagtxt2[i]
         chaptersLink.href=linksPage[i]
     }else{
-        chapters.src=storyImag[i]
+        chaptersImgs.style.backgroundImage='url("imag/'+storyImag[i]+'")'
         chaptersH3.textContent=storyImagtext[i]
         chaptersP.textContent=storyImagtxt2[i]
         chaptersLink.href=linksPage[i]
 
     }
 })
+let demoaryyes=0
+//views numbers//
 
+eye.addEventListener('click',()=>{
+
+   views++
+
+
+})
 //////chang image in support page///////////
 
 let supportPage=document.querySelector('.support')
@@ -409,7 +419,8 @@ newsPage.style.backgroundImage='url("imag/'+newsImag[n]+'")'
 
 
 
-window.matchMedia('()')
+
+
 
 
 

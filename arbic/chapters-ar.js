@@ -2,8 +2,9 @@
 ////Satting box ////
 
 
-let satting=document.querySelector('.satting-Box')
-let sittingCon=document.querySelectorAll(".satting-content")
+let soursBox=document.querySelector('.sours-box')
+let soursbt=document.querySelector('.sours-botm')
+let soursListLbl=document.querySelector('.sours-lbe')
 let haderul=document.querySelectorAll('.hader-ul')
 let langLable=document.querySelector('.lang-lab')
 let astory=document.querySelector('.active4')
@@ -25,6 +26,32 @@ let globlIcon =document.querySelector('.fa-globe')
 
 
 
+//sours list///
+soursbt.addEventListener('click',()=>{
+    soursbt.style=' opacity:0%'
+    soursBox.style='right: 0px; transition: 0.5s; '
+    activeli.style='margin-right:180px'
+
+
+    //mid screeen
+    let smallsceen=window.matchMedia("(max-width:650px)")
+    if(smallsceen.matches){
+haderul.style.display='none'
+    }
+   
+   })
+
+   soursListLbl.addEventListener('click',()=>{
+    
+    soursbt.style=' opacity:100%'
+    soursBox.style='right: -250px; transition: 0.5s; '
+    activeli.style='margin-right:0px'
+     //mid screeen
+    let smallsceen=window.matchMedia("(max-width:650px)")
+    if(smallsceen.matches){
+haderul.style='display:block'
+    }
+   })
 //////Satting Events//////////
 
 

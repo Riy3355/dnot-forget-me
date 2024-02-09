@@ -70,6 +70,9 @@ padding-top: 20px;
         
     padding-left: 10px;
     padding-right: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
  }
 
    
@@ -243,7 +246,8 @@ margin-top: 15px;
    .language .language-list .activelang a{
        margin-top: 20px;
    }
-/*.satting-Box{
+/* sours-box*/
+.sours-box{
     position: fixed;
         background-color: rgb(25, 23, 23);
         top: 0;
@@ -254,6 +258,34 @@ margin-top: 15px;
         opacity: 70%;
         
       
+    }
+    /*mid screen*/
+    @media (max-width:650px) {
+        .sours-box{
+            width: 150px;
+        }
+    }
+    
+    /*smal screen*/
+    @media (max-width:450px) {
+        .sours-box{
+            width: 120px;
+        }
+    }
+    .sours-box .sours-content{
+        display: flex;
+        justify-content: center;
+        color: red;
+    }
+  .sours-botm{
+        cursor: pointer;
+    }
+    .sours-lbe{
+        cursor: pointer;
+transition: 0.5s;
+    }
+    .sours-lbe:hover{
+        color: white;
     }
     .satting-content .fa-backward{
     
@@ -335,7 +367,7 @@ margin-top: 15px;
     /*satting box end*/
     /*start chapter page */
 .chapter{
-    background-image:url(../imag/خنازير.jpg) ;
+    background-image:url(../imag/chapter\ one.jpeg) ;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -381,6 +413,10 @@ padding: 5px;
     z-index: 2;
 }
 
+.sours-botm{
+    cursor: pointer;
+}
+
     /*for maidum*/
     @media (max-width:650px) {
         .chapter .header-ul a{
@@ -390,8 +426,8 @@ padding: 5px;
     
     /*for small*/
     @media (max-width:500px) {
-        .chapter .header-ul a{
-    font-size: 10px;
+        .chapter .header-ul {
+    font-size: 15px;
         }
     }
 
@@ -561,6 +597,13 @@ color: red;
     transform: translateX(-50%);
 }
 
+.content .chapter-imgs{
+    width: 50%;
+    height: 50%;
+}
+.content .chapter-imgs2{
+    width: 100%;
+}
 .chapter .header .logo{
     width: 300px;
     padding: 15px;
