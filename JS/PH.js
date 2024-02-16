@@ -276,7 +276,7 @@ let storyImagtext=['chapter one','chapter Tow','chapter three','chapter four']
 let storyImagtxt2=['The beginning of the occupation','Deir Yassin massacre','The defeat of the occupation in October','Killing of Muhammad al-Durrah']
 let linksPage=['chapterone.html','chapterTwo.html','chapterThree.html','chapterfour.html']
 
-///chang image/////
+///chang image story page/////
 let i=0
 
 btn1.addEventListener('click',()=>{
@@ -343,7 +343,7 @@ let supportImag =['../imag/storyimg.jpg','../imag/No-Starbucks.jpg','../imag/pex
 let supportImagtext=['Charity','interrupt','Share the issue']
 let buttonText=['Sours for Charity','sours for interrupt','How to make your voice heard']
 
-////click eveint///
+////click eveint in support page///
 
 let r=0
 supportNextimag.addEventListener('click',()=>{
@@ -379,7 +379,7 @@ else{
 
 
 
-///chang background evry 10 scend////
+///chang background evry 10 scend in support page////
 
 setInterval(()=>{
 r++
@@ -414,6 +414,7 @@ newsPage.style.backgroundImage='url("imag/'+newsImag[n]+'")'
 
 /*End the News page*/ 
 
+///////
 
 
 

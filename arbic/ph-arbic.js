@@ -310,7 +310,7 @@ bults()
 //Story///
 let overlay=document.querySelector('.overlay')
 let allStpry=document.querySelector('.story-page')
-let chapters=document.querySelector('.chapter1')
+let chaptersImgs=document.querySelector('.chapter1')
 let chaptersH3=document.querySelector('.chapters h3')
 let chaptersLink=document.querySelector('.chapter1 a')
  let chaptersP=document.querySelector('.chapters p')
@@ -320,9 +320,9 @@ let btn2=document.querySelector('.fa-caret-right')
 
 
 
-let storyImag=['../imag/خنازير.jpg','../imag/storyimag6.jpg','../imag/storyimage3.jpg','../imag/storyimag7.jpeg']
+let storyImag=['../imag/عماليق.jpg','../imag/خنازير.jpg','../imag/storyimage3.jpg','../imag/storyimag7.jpeg']
 let storyImagtext=['الفصل الاول','الفصل الثاني','الفصل الثالث','الفصل الرابع']
-let storyImagtxt2=['بدية الاحتلال','مجزرة دير ياسين','هزيمتهم في حرب اكتوبر','الكثير من الشهداء ولاننسى مجزرة التي قتلت شهيد محمد دره']
+let storyImagtxt2=['اول من سكن الارض','بداية الاحتلال','هزيمتهم في حرب اكتوبر','الكثير من الشهداء ولاننسى مجزرة التي قتلت شهيد محمد دره']
 let linksPage=['../chapterone.html','chapterTwo-ar.html','chapterThree-ar.html','chapterfour-ar.html']
 
 ///chang image/////
@@ -333,7 +333,7 @@ btn1.addEventListener('click',()=>{
    i--
    if(i<0){
     i=storyImag.length-1
-    chapters.style.backgroundImage='url("imag/'+storyImag[i]+'")'
+    chaptersImgs.style.backgroundImage='url("../imag/'+storyImag[i]+'")'
     chaptersH3.textContent=storyImagtext[i]
     chaptersP.textContent=storyImagtxt2[i]
   chaptersLink.href=linksPage[i]
@@ -341,7 +341,7 @@ btn1.addEventListener('click',()=>{
   
 
    }else{
-    chapters.style.backgroundImage='url("imag/'+storyImag[i]+'")'
+    chaptersImgs.style.backgroundImage='url("../imag/'+storyImag[i]+'")'
     chaptersH3.textContent=storyImagtext[i]
     chaptersP.textContent=storyImagtxt2[i] 
     chaptersH3.href=linksPage[i]
@@ -356,12 +356,12 @@ btn2.addEventListener('click',()=>{
     i++
     if(i>=storyImag.length){
         i=0
-        chapters.style.backgroundImage='url("imag/'+storyImag[i]+'")'
+        chaptersImgs.style.backgroundImage='url("../imag/'+storyImag[i]+'")'
         chaptersH3.textContent=storyImagtext[i]
         chaptersP.textContent=storyImagtxt2[i]
         chaptersLink.href=linksPage[i]
     }else{
-        chapters.style.backgroundImage='url("imag/'+storyImag[i]+'")'
+        chaptersImgs.style.backgroundImage='url("../imag/'+storyImag[i]+'")'
         chaptersH3.textContent=storyImagtext[i]
         chaptersP.textContent=storyImagtxt2[i]
         chaptersLink.href=linksPage[i]

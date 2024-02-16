@@ -164,5 +164,7 @@ margin-left: 0px;
         font-size:13px ;
         }
         }
-        
+        .chapter .content .podcast img{
+            width: 50%;
+        }
 /*end landing-page*/
