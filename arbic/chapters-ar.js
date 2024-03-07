@@ -15,12 +15,12 @@ let backBtom=document.querySelector('.back-btm')
 let langaugeBtm=document.querySelector('.lang-btm')
 let sittinglogo=document.querySelector('.fa-backward')
 
-//sours list///
+//sours list//
 soursbt.addEventListener('click',()=>{
     soursbt.style=' opacity:0%'
     soursBox.style='right: 0px; transition: 0.5s; '
     backBtom.style='margin-right:180px'
-   langBox.style='margin-right:220px'
+haderul.style.display='none'
 
 
     // sours list mid screeen
@@ -31,11 +31,16 @@ haderul.style.display='none'
    
    })
 
+
+//back btm soures///
+
+
    soursListLbl.addEventListener('click',()=>{
     
     soursbt.style=' opacity:100%'
     soursBox.style='right: -250px; transition: 0.5s; '
     backBtom.style='margin-right:0px'
+    haderul.style.display='flex'
      //mid screeen
     let smallsceen=window.matchMedia("(max-width:650px)")
     if(smallsceen.matches){
@@ -49,6 +54,7 @@ haderul.style='display:block'
 
 
 ///////langauge vars/////////
+
 
 
 
@@ -102,7 +108,7 @@ let madiascreen2=window.matchMedia("(max-width:450px)")
 if(madiascreen2.matches){
     
     langaugeBtm.style='display:none'
-    langaugeBtm.style='right: -39%;margin-top: 100px;top:-10px;padding-top:17px;display:block;padding-left:3px; margin-right: 170px; width:97px;height: 160px'
+    langBox.style='right: -39%;margin-top: 100px;top:-10px;padding-top:17px;display:block;padding-left:3px; margin-right: 170px; width:97px;height: 160px'
     listLang.style='font-size:14px'
     langLable.style='font-size:14px'
 }
@@ -119,17 +125,18 @@ if(madiascreen3.matches){
 }
 
 
+// back btm for languages list
+
 
 langLable.onclick=function(){
     langaugeBtm.style='position: relative;top: 0; margin-left: 10px;'
-    
+    langaugeBtm.style.display='block'
     langBox.style='top:-350px;transition:0.6s;'
     let madiascreen=window.matchMedia("(max-width:650px)")
     if(madiascreen.matches){
     langBox.style='display:none;transition:0.5s'
     }
 }
-
 
 
 

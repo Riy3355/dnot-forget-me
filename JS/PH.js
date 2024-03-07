@@ -1,9 +1,7 @@
 
-////Satting box ////
+//// time line ////
 
 
-let satting=document.querySelector('.satting-Box')
-let sittingCon=document.querySelectorAll(".satting-content")
 let haderul=document.querySelectorAll('.hader-ul')
 let astory=document.querySelector('.active4')
 let howSupport=document.querySelector('.active3')
@@ -66,14 +64,12 @@ howSupport.addEventListener('click',()=>{
         behavior:'smooth'
     })
 })
-/////logo eveint
 
 
-///////////lang lang////////
 
 
-////arbic ul text/////
-//landing///////////////////
+
+///////////////// Start landing page///////////////////
 let landing=document.querySelector('.Landing-Page')
 let lantext=document.querySelector('.Landing-text')
 let lanLable=document.querySelector('.lable')
@@ -256,7 +252,7 @@ bults()
 ///////////////////////
 
 
-//Story///
+//Story page///
 let overlay=document.querySelector('.overlay')
 let allStpry=document.querySelector('.story-page')
 let chaptersImgs=document.querySelector('.chapter1')
@@ -271,7 +267,7 @@ let eye=document.querySelector('.fa-eye')
 
 
 
-let storyImag=['../imag/خنازير.jpg','../imag/storyimag6.jpg#','../imag/storyimage3.jpg','../imag/storyimag7.jpeg']
+let storyImag=['../imag/عماليق.jpg','../imag/خنازير.jpg','../imag/storyimage3.jpg','../imag/storyimag7.jpeg']
 let storyImagtext=['chapter one','chapter Tow','chapter three','chapter four']
 let storyImagtxt2=['The beginning of the occupation','Deir Yassin massacre','The defeat of the occupation in October','Killing of Muhammad al-Durrah']
 let linksPage=['chapterone.html','chapterTwo.html','chapterThree.html','chapterfour.html']
@@ -301,7 +297,7 @@ btn1.addEventListener('click',()=>{
     
 })
 
-
+//////***************** I will devolbment in onther Time :)   **********************//////
 
 btn2.addEventListener('click',()=>{
     i++
@@ -413,6 +409,8 @@ newsPage.style.backgroundImage='url("imag/'+newsImag[n]+'")'
 },5000)
 
 /*End the News page*/ 
+
+//End the time line and good luck :)   //
 
 ///////
 

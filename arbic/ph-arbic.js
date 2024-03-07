@@ -1,10 +1,9 @@
 
 
-////Satting box ////
+
+//////////////////time line/////////////////////////
 
 
-//let satting=document.querySelector('.satting-Box')
-//let sittingCon=document.querySelectorAll(".satting-content")
 let haderul=document.querySelectorAll('.hader-ul')
 let langLable=document.querySelector('.lang-lab')
 let astory=document.querySelector('.active4')
@@ -15,7 +14,7 @@ let activeli=document.querySelector('.active')
 let sittinglogo=document.querySelector('.fa-backward')
 
 
-///////langauge/////////
+///////langauge box vars/////////
 
 let lang=document.querySelector('.language')
 let listLang=document.querySelector('.language-list')
@@ -23,7 +22,8 @@ let lan=document.querySelectorAll('.language-list li')
 let arbic=document.querySelector('.arbic')
 let eng=document.querySelector('.activelang')
 let globlIcon =document.querySelector('.fa-globe')
-//////Satting Events//////////
+
+//////langauge Events//////////
 
 
 
@@ -121,7 +121,7 @@ howSupport.addEventListener('click',()=>{
 
 
 
-//landing///////////////////
+/////////////// start landing page///////////////////
 let landing=document.querySelector('.Landing-Page')
 let lantext=document.querySelector('.Landing-text')
 let lanLable=document.querySelector('.lable')
