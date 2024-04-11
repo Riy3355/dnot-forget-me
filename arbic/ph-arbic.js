@@ -322,7 +322,7 @@ let btn2=document.querySelector('.fa-caret-right')
 
 let storyImag=['../imag/عماليق.jpg','../imag/خنازير.jpg','../imag/storyimage3.jpg','../imag/storyimag7.jpeg']
 let storyImagtext=['الفصل الاول','الفصل الثاني','الفصل الثالث','الفصل الرابع']
-let storyImagtxt2=['اول من سكن الارض','بداية الاحتلال','هزيمتهم في حرب اكتوبر','الكثير من الشهداء ولاننسى مجزرة التي قتلت شهيد محمد دره']
+let storyImagtxt2=['اول من سكن الارض','بداية الاحتلال','كذبة الجيش الذي لا يقهر','الكثير من الشهداء ولاننسى مجزرة التي قتلت شهيد محمد دره']
 let linksPage=['../chapterone.html','chapterTwo-ar.html','chapterThree-ar.html','chapterfour-ar.html']
 
 ///chang image/////
