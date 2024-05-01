@@ -316,6 +316,8 @@ margin-top: 15px;
         display: flex;
         justify-content: center;
         color: red;
+        text-align: center;
+        flex-direction: column;
     }
 
 
@@ -591,6 +593,7 @@ color: red;
 .content .chapter-imgs{
     width: 70%;
     height: 50%;
+ 
 }
 .content .chapter-imgs2{
     width: 100%;
