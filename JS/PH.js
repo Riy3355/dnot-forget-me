@@ -52,22 +52,92 @@ langLable.style='padding-top:14px;'
 }
 
 }
+////////////////ul click events for scroll in the page///////////////////////
+
+///////it`s click event for full story bootmn/////////
 astory.addEventListener('click',()=>{
     window.scrollTo({
         top:1150,
         behavior:'smooth'
     })
 })
+/////////
+
+///////it`s click event for How to support bootmn/////////
+
 howSupport.addEventListener('click',()=>{
     window.scrollTo({
         top:2300,
         behavior:'smooth'
     })
-})
+
+    })
+/////////////////
+
+
+///////it`s click event for full story bootmn/////////       /*madium screen*/
+
+
+let madiascreenAllsory=window.matchMedia("(max-width:450px)")
+if(madiascreenAllsory.matches){
+    astory.addEventListener('click',()=>{
+        window.scrollTo({
+            top:1000,
+            behavior:'smooth'
+        })
+    })
+}
+
+///////it`s click event for full story bootmn/////////       /*small screen*/
+let madiascreenAllsorysmil=window.matchMedia("(max-width:380px)")
+if(madiascreenAllsorysmil.matches){
+    astory.addEventListener('click',()=>{
+        window.scrollTo({
+            top:720,
+            behavior:'smooth'
+        })
+    })
+}
+
+///////it`s click event for How to support bootmn///////// /*madium screen*/
+
+    let madiascreen=window.matchMedia("(max-width:450px)")
+    if(madiascreen.matches){
+        howSupport.addEventListener('click',()=>{
+            window.scrollTo({
+                top:2000,
+                behavior:'smooth'
+            })
+        })
+    }
+
+///////it`s click event for How to support bootmn///////// /*madium screen*/
 
 
 
 
+let howSupportmadiascreenSmall=window.matchMedia("(max-width:380px)")
+if(howSupportmadiascreenSmall.matches){
+    howSupport.addEventListener('click',()=>{
+        window.scrollTo({
+            top:1570,
+            behavior:'smooth'
+        })
+    })
+}
+
+
+
+
+
+
+
+
+
+
+
+
+////////////////////////////
 
 ///////////////// Start landing page///////////////////
 let landing=document.querySelector('.Landing-Page')
@@ -268,7 +338,7 @@ let eye=document.querySelector('.fa-eye')
 
 
 let storyImag=['../imag/عماليق.jpg','../imag/خنازير.jpg','../imag/storyimage3.jpg','../imag/storyimag7.jpeg']
-let storyImagtext=['chapter one','chapter Tow','chapter three','chapter four']
+let storyImagtext=['chapter one','chapter Two','chapter three','chapter four']
 let storyImagtxt2=['The beginning of the occupation','Deir Yassin massacre','The defeat of the occupation in October','Killing of Muhammad al-Durrah']
 let linksPage=['chapterone.html','chapterTwo.html','chapterThree.html','chapterfour.html']
 
