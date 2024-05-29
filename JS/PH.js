@@ -73,6 +73,69 @@ howSupport.addEventListener('click',()=>{
 
     })
 /////////////////
+///////it`s click event for howsupport bootmn/////////       /*varybig screen*/
+
+
+
+let madiascreenBig=window.matchMedia("(max-width:1024px)")
+if(madiascreenBig.matches){
+    howSupport.addEventListener('click',()=>{
+        window.scrollTo({
+            top:2900,
+            behavior:'smooth'
+        })
+    })
+}
+
+
+///////it`s click event for howsupport bootmn/////////       /*big screen*/
+
+
+
+
+
+
+let madiascreenBig1=window.matchMedia("(max-width:855px)")
+if(madiascreenBig1.matches){
+    howSupport.addEventListener('click',()=>{
+        window.scrollTo({
+            top:2450,
+            behavior:'smooth'
+        })
+    })
+}
+
+
+
+
+
+///////it`s click event for full story bootmn/////////       /* very big screen*/
+
+let madiascreenAllstoryBig=window.matchMedia("(max-width:1024px)")
+if(madiascreenAllstoryBig.matches){
+    astory.addEventListener('click',()=>{
+        window.scrollTo({
+            top:1500,
+            behavior:'smooth'
+        })
+    })
+}
+
+
+
+///////it`s click event for full story bootmn/////////       /* big screen*/
+
+
+
+let madiascreenAllstoryBig1=window.matchMedia("(max-width:855px)")
+if(madiascreenAllstoryBig1.matches){
+    astory.addEventListener('click',()=>{
+        window.scrollTo({
+            top:1300,
+            behavior:'smooth'
+        })
+    })
+}
 
 
 ///////it`s click event for full story bootmn/////////       /*madium screen*/
@@ -105,27 +168,41 @@ if(madiascreenAllsorysmil.matches){
     if(madiascreen.matches){
         howSupport.addEventListener('click',()=>{
             window.scrollTo({
-                top:2000,
+                top:2050,
                 behavior:'smooth'
             })
         })
     }
 
-///////it`s click event for How to support bootmn///////// /*madium screen*/
+///////it`s click event for How to support bootmn///////// /*small screen*/
 
 
 
 
-let howSupportmadiascreenSmall=window.matchMedia("(max-width:380px)")
+let howSupportmadiascreenSmall=window.matchMedia("(max-width:390px)")
 if(howSupportmadiascreenSmall.matches){
     howSupport.addEventListener('click',()=>{
         window.scrollTo({
-            top:1570,
+            top:1650,
             behavior:'smooth'
         })
     })
 }
 
+///////it`s click event for How to support bootmn///////// /*very small screen*/
+
+
+let howSupportmadiascreenVerySmall=window.matchMedia("(max-width:370px)")
+if(howSupportmadiascreenVerySmall.matches){
+    howSupport.addEventListener('click',()=>{
+        window.scrollTo({
+            top:1600,
+            behavior:'smooth'
+        })
+    })
+}
+
+///////it`s click event for How to support bootmn///////// /*very small screen *2*/
 
 
 
@@ -133,7 +210,15 @@ if(howSupportmadiascreenSmall.matches){
 
 
 
-
+let howSupportmadiascreenVerySmallx2=window.matchMedia("(max-width:350px)")
+if(howSupportmadiascreenVerySmall.matches){
+    howSupport.addEventListener('click',()=>{
+        window.scrollTo({
+            top:1550,
+            behavior:'smooth'
+        })
+    })
+}
 
 
 
